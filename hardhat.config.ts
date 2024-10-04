@@ -3,7 +3,7 @@ import "@nomicfoundation/hardhat-toolbox";
 require("dotenv").config();
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.20",
+  solidity: "0.8.27",
   networks: {
     testnet: {
       url: process.env.TEST_INFURA_URL,

@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **MarsxLands** smart contract is an ERC721-based contract designed to manage the minting and sale of digital lands using the ERC20 MX token. Each community in the platform can have a maximum of 100,000 lands, and users can buy these lands by providing a valid signature and paying the mint price in MX tokens. The contract also implements various features for ownership control, security, and flexibility in setting prices and managing token metadata.
+The **MarsxLands** smart [contract](https://amoy.polygonscan.com/address/0x180D6367f2888F8b2aDe7623362022F2Ed98639c#code) is an ERC721-based contract designed to manage the minting and sale of digital lands using the ERC20 MX token. Each community in the platform can have a maximum of 100,000 lands, and users can buy these lands by providing a valid signature and paying the mint price in MX tokens. The contract also implements various features for ownership control, security, and flexibility in setting prices and managing token metadata.
 
 ## Features
 
@@ -13,7 +13,7 @@ The **MarsxLands** smart contract is an ERC721-based contract designed to manage
 - **Token Metadata Management:**: Supports the retrieval and update of metadata URIs.
 - **MX Token Withdrawals**: Owners can withdraw accumulated MX tokens from the contract.
 - **Nonce Management**: Tracks nonces for secure and unique transaction validation.
-- **Community-Based Minting**: Each community has up to 1,000,000 land NFTs available for minting.
+- **Community-Based Minting**: Each community has 100,000 land NFTs available for minting.
 
 ## Contract Details
 

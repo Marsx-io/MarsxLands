@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity 0.8.27;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -17,7 +17,7 @@ contract MarsxLands is ERC721, Ownable(msg.sender), ReentrancyGuard {
     mapping(uint256 => bool) private _mintedTokens;
     uint256 public mintPrice; // MX Token with 18 decimals
     
-    uint256 public maxLandPerCommunity = 1000000;
+    uint256 public maxLandPerCommunity = 100000;
     mapping(uint256 => uint256) public communityLandCount; // Tracks the number of lands minted for each community
     address private authorizedSigner;
     mapping(address => uint256) public nonces;
